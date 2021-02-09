@@ -1,0 +1,22 @@
+{
+  "name": "discordjs-bot",
+  "version": "1.0.0",
+  "description": "An open-source Discord.JS bot made to help new users.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OnlyTense/Discord.JS-Bot.git"
+  },
+  "author": "OnlyTense",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OnlyTense/Discord.JS-Bot/issues"
+  },
+  "homepage": "https://github.com/OnlyTense/Discord.JS-Bot#readme",
+  "dependencies": {
+    "discord.js": "^12.5.1"
+  }
+}
