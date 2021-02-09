@@ -27,6 +27,14 @@ client.on('message', message =>{
     if(command === 'worldclock'){
         client.commands.get('worldclock').execute(message, args, Discord);
     }
+
+    if(command === 'botstats'){
+        client.commands.get('botstats').execute(message, args, Discord, client);
+    }
+
+    if(command === 'meme'){
+        client.commands.get('meme').execute(message, args, Discord, client);
+    }
 });
 
 
