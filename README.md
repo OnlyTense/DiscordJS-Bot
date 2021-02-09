@@ -6,4 +6,4 @@
 
 ## Credit
 
-> All credit goes to, @OnlyTense, @Pre-Suffix, and @samu.
+> All credit goes to, @OnlyTense, @Pre-Suffix, and @samu. Not all code is ours.
