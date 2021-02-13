@@ -21,7 +21,7 @@ client.on('message', message =>{
     const command = args.shift().toLowerCase()
 
     if(command === 'ping'){
-        client.commands.get('ping').execute(message, args);
+        client.commands.get('ping').execute(message, args, Discord);
     }
 
     if(command === 'worldclock'){
@@ -35,6 +35,7 @@ client.on('message', message =>{
     if(command === 'meme'){
         client.commands.get('meme').execute(message, args, Discord, client);
     }
+
 });
 
 
