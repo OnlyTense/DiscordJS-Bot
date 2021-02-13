@@ -6,4 +6,4 @@
 
 ## Credit
 
-> All credit goes to, @OnlyTense, @Pre-Suffix, and @samu. Not all code is ours.
+> All credit goes to @OnlyTense (me) for this repository although not all code is mine.
