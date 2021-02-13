@@ -12,11 +12,12 @@ module.exports = {
           var awst = new Date().toLocaleString("en-US", { timeZone: "Australia/Perth" })
           var kst = new Date().toLocaleString("en-US", { timeZone: "Asia/Seoul" })
           var ist = new Date().toLocaleString("en-US", { timeZone: "Asia/Calcutta" })
+          var brt = new Date().toLocaleString("en-US", { timeZone: "America/Bahia" })
 
           const worldClock = new Discord.MessageEmbed()
             .setAuthor('World Clock - Timezones')
             .addField(':flag_eu: London (GMT)', `${gmt}\n(GMT+0/GMT+1)`, true)
-            .addField(':flag_eu: Central (CET)', `${cet}\n(GMT+1)`, true)
+            .addField(':flag_br: Brazil (BRT)', `${brt}\n(GMT-3)`, true)
             .addField('\u200B', '\u200B', true)
             .addField(':flag_us: New York (EST)', `${est}\n(GMT-5)`, true)
             .addField(':flag_us: Los Angles (PST)', `${pst}\n(GMT-8)`, true)
