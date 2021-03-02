@@ -36,13 +36,19 @@ client.on('message', message =>{
         client.commands.get('meme').execute(message, args, Discord, client);
     }
 
+    if(command === 'coinflip'){
+        client.commands.get('coinflip').execute(message, args, Discord, client);
+    }
+
+    if(command === 'userinfo'){
+        client.commands.get('userinfo').execute(message, args, Discord, client);
+    }
+
 });
 
 
-
-
 client.once('ready', () => {
-    console.log('Bot is now online!');
+    console.log(`Bot is online.`);
 });
 
 
